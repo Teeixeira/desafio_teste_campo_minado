@@ -2,6 +2,14 @@
 
 Projeto de Campo Minado com tabuleiro de **18 colunas × 14 linhas** e **40 bombas**. A suíte em JavaScript com Jest segue o padrão dos demais desafios: casos sequenciais `CT-XX` que servem de especificação para o professor implementar seu próprio algoritmo. O jogo também pode ser aberto no navegador local para partidas manuais.
 
+## Participantes do grupo
+
+| Nome | RA |
+|---|---|
+| Leonardo Teixeira de Carvalho | 24159859-2 |
+| Matheus Eduardo Polizelli | 24129411-2 |
+
+
 ## Requisitos e execução
 
 Requer Node.js 22 e npm.
