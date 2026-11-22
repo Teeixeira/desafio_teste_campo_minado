@@ -1,0 +1,13 @@
+{
+  "name": "desafio-teste-campo-minado",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Casos Jest e jogo local de Campo Minado 18 x 14 com 40 bombas",
+  "engines": { "node": ">=22 <23" },
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "start": "node server.js"
+  },
+  "devDependencies": { "jest": "^30.2.0" }
+}
