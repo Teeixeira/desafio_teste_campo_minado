@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#111b29">
+  <title>Campo Minado · 18 × 14</title>
+  <link rel="stylesheet" href="/styles.css"><script type="module" src="/browser.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar"><a class="brand" href="/" aria-label="Campo Minado"><span class="brand-mark">✹</span><span>CAMPO<br><strong>MINADO</strong></span></a><div class="local-tag"><i></i> JOGO LOCAL <span>·</span> 18 × 14</div></header>
+    <section class="intro"><div class="eyebrow">DESAFIO DE LÓGICA</div><h1>Campo Minado.</h1><p>Abra as casas seguras, use os números para localizar as bombas e marque suas suspeitas com uma bandeira.</p></section>
+    <section class="game-panel">
+      <div class="game-head"><div><span class="eyebrow">TABULEIRO</span><h2>18 colunas · 14 linhas</h2></div><button id="new-game" type="button" class="new-game" aria-label="Novo jogo">↻ <span>Novo jogo</span></button></div>
+      <div class="score-strip"><div class="counter"><span class="counter-icon">⚑</span><span id="mine-count">040</span><small>BOMBAS</small></div><div class="face" id="face" aria-live="polite">🙂</div><div class="counter timer"><span class="counter-icon">◷</span><span id="timer">000</span><small>TEMPO</small></div></div>
+      <p id="game-message" class="game-message" aria-live="polite">Abra uma casa para começar. A primeira abertura é segura.</p>
+      <div class="board-scroll"><div id="board" class="board" role="grid" aria-label="Campo minado de 18 colunas por 14 linhas"></div></div>
+      <div class="legend"><span><i class="legend-safe">1</i> Número de bombas vizinhas</span><span><i class="legend-flag">⚑</i> Bandeira</span><span><i class="legend-bomb">✹</i> Bomba</span></div>
+    </section>
+    <footer><span>Botão esquerdo: abrir casa</span><b>·</b><span>Botão direito: colocar ou retirar bandeira</span></footer>
+  </main>
+</body>
+</html>
